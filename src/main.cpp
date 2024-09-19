@@ -1,18 +1,14 @@
 #include <Arduino.h>
+#include <Adafruit_Fingerprint.h>
+#include <FS.h>
+#include <SPI.h>
+#include <lvgl.h>
+#include <TFT_eSPI.h>
 
-// put function declarations here:
-int myFunction(int, int);
+void setup(){
 
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+void loop(){
+  
 }

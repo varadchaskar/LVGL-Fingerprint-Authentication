@@ -385,7 +385,7 @@ void setup() {
   enlarge_button(returnButton);                                             // Enlarge the Return button
   lv_obj_align(returnButton, LV_ALIGN_CENTER, 0, 40);                       // Align the Return button to the center
   lv_obj_t *returnButtonLabel = lv_label_create(returnButton);              // Create a label for the Return button
-  lv_label_set_text(returnButtonLabel, "Return");                               // Set the text for the Return button label
+  lv_label_set_text(returnButtonLabel, "Return");                           // Set the text for the Return button label
   lv_obj_add_event_cb(returnButton, return_button_event_handler, LV_EVENT_ALL, NULL);  // Add an event handler for the Return button
   lv_obj_add_flag(returnButton, LV_OBJ_FLAG_HIDDEN);                            // Hide the Return button initially
 
